@@ -1,4 +1,4 @@
-package specDefinitions;
+package specdefinitions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +9,7 @@ import cucumber.api.java.en.Given;
 
 public class Second {
 	 @Given("^I launch the second chrome browser$")
-	    public void i_launch_chrome_browser1() throws Throwable {
+	    public void launch() throws Throwable {
 	        System.out.println("Chrome");
 	        System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 	        WebDriver driver=new ChromeDriver();
