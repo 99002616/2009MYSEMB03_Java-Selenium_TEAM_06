@@ -1,4 +1,4 @@
-package specDefinitions;
+package specdefinitions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class First {
 	 @Given("^I launch chrome browser$")
-	    public void i_launch_chrome_browser() throws Throwable {
+	    public void display() throws Throwable {
 	        System.out.println("Chrome");
 	        System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 	        WebDriver driver=new ChromeDriver();
